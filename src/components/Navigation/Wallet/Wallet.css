@@ -1,0 +1,11 @@
+.Wallet {
+  display: flex;
+  align-items: center;
+}
+
+.LinkWallet {
+  padding: 2px 20px;
+  margin: 0 10px;
+  border: 1px solid #f54959;
+  border-radius: 8px;
+}

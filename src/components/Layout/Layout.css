@@ -1,0 +1,16 @@
+.Layout {
+  color: #fff;
+  position: relative;
+}
+
+.WalletMobile {
+  position: absolute;
+  bottom: 0;
+  padding: 1rem 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 12px 12px 0px 0px;
+  background-color: rgb(33, 36, 41);
+  width: 100%;
+}
