@@ -1,0 +1,73 @@
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+input:-webkit-autofill {
+  -webkit-animation-delay: 1s; /* Safari support - any positive time runs instantly */
+  -webkit-animation-name: autofill;
+  -webkit-animation-fill-mode: both;
+}
+
+@-webkit-keyframes autofill {
+  0%,
+  100% {
+    color: #666;
+    background: transparent;
+  }
+}
+
+.CoinField {
+}
+
+.InputTitle {
+  padding: 5px 0px;
+}
+.InputContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #171b36;
+  padding: 10px 20px;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.CoinInput {
+  color: rgb(255, 255, 255);
+  width: 70%;
+  position: relative;
+  font-weight: 500;
+  outline: none;
+  border: none;
+  flex: 1 1 auto;
+  background-color: #171b36;
+  font-size: 24px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 0px;
+  appearance: textfield;
+}
+
+.CoinGroup {
+  display: flex;
+  height: 80%;
+  align-items: center;
+}
+.CoinGroup img {
+  height: 30px;
+  width: auto;
+}
+.CoinGroup span {
+  margin-left: 5px;
+  text-align: center;
+  align-items: center;
+}

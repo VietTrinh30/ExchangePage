@@ -1,24 +1,27 @@
 import React, { Component } from "react";
 import Button from "react-bootstrap/Button";
+import icUsdt from "../../../assets/images/ic_usdt.svg";
 import iconArrow from "../../../assets/images/ic_arrow.svg";
 import "./Exchange.css";
+import CoinField from "../CoinField/CoinField";
 class Exchange extends Component {
   render() {
     return (
-      <div>
+      <div className="Exchange">
         <div className="row">
           <div className="col-5">
-            <div>Bạn gửi</div>
-            <div></div>
+            <CoinField coinName="USDT" title="Bạn gửi" iconPath={icUsdt} />
           </div>
           <div className="col-2">
-            <img src={iconArrow} alt="change" />
+            <div className="Arrow">
+              <img src={iconArrow} alt="change" />
+            </div>
           </div>
           <div className="col-5">
-            <div>Bạn sẽ nhận</div>
+            <CoinField coinName="XU" title="Bạn sẽ nhận" />
           </div>
         </div>
-        <Button>Primary</Button>
+        {/* <Button>Primary</Button> */}
       </div>
     );
   }

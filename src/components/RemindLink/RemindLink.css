@@ -1,0 +1,20 @@
+.RemindLink {
+  padding: 1px 6px;
+  background: rgb(33, 114, 229);
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  text-align: center;
+}
+.RemindLink img {
+  height: 15px;
+}
+
+.RemindLink span {
+  font-size: 10px;
+  margin: auto 10px;
+}
+
+.Close {
+  margin: auto 0;
+}

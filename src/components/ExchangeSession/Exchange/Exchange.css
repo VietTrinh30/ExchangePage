@@ -1,0 +1,17 @@
+.Exchange {
+  padding: 100px 0px;
+  box-sizing: border-box;
+}
+
+.Arrow {
+  padding-top: 20px;
+  height: 100%;
+  text-align: center;
+  position: relative;
+  justify-content: center;
+  display: flex;
+}
+.Arrow img {
+  bottom: 20px;
+  align-self: center flex-end;
+}

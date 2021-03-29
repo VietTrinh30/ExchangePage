@@ -6,11 +6,11 @@ class ExchangeSession extends Component {
   render() {
     return (
       <Aux>
-        <div className="container Exchange">
+        <div className="container ExchangeSession">
           <h2 className="d-none d-md-block">
-            <span>Nạp tiền</span> lên sàn RikVip
+            Mua / Bán XU chơi game <span>LuckyBlock</span>
             <br />
-            đơn giản hơn bao giờ hết{" "}
+            Tức Thì, Bảo Mật, Tự Động 24/7
           </h2>
           <Exchange />
         </div>
